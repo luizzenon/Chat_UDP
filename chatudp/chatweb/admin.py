@@ -1,11 +1,24 @@
 from django.contrib import admin
-from .models import Mensagem, SalaChat
+from .models import Room, Participant, SentTextMessage, ReceivedTextMessage
 
-class MensagemAdmin(admin.ModelAdmin):
+
+class RoomAdmin(admin.ModelAdmin):
     pass
 
-class SalaChatAdmin(admin.ModelAdmin):
+
+class ParticipantAdmin(admin.ModelAdmin):
     pass
 
-admin.site.register(Mensagem, MensagemAdmin)
-admin.site.register(SalaChat, SalaChatAdmin)
+
+class SentTextMessageAdmin(admin.ModelAdmin):
+    pass
+
+
+class ReceivedTextMessageAdmin(admin.ModelAdmin):
+    pass
+
+
+admin.site.register(Room, RoomAdmin)
+admin.site.register(Participant, ParticipantAdmin)
+admin.site.register(SentTextMessage, SentTextMessageAdmin)
+admin.site.register(ReceivedTextMessage, ReceivedTextMessageAdmin)
