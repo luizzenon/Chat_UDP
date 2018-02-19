@@ -28,6 +28,7 @@ class Message(models.Model):
     datetime = models.DateTimeField(null=False)
     room = models.ForeignKey(Room, on_delete=models.CASCADE)
     text = models.TextField()
+    refer_message = models.UUIDField(null=True)
 
     class Meta:
         abstract = True
