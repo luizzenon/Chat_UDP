@@ -1,0 +1,12 @@
+{%extends 'chatweb/base.html'%}
+
+
+
+{%block content%}
+	{%for mensagem in mensagens%}
+        {{mensagem.texto}} 
+            {%for sala in mensagem.sala.all%}
+                {{sala.nome_sala}}
+            {%endfor%}<br>
+	{%endfor%}
+{%endblock%}
