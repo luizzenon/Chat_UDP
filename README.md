@@ -55,7 +55,7 @@ RQF05 | UCS11 - Listar Mensagens Enviadas Pendentes
 <b>Diagrama de Classes</b> <br>
 ![chatudp_classdiagram](https://user-images.githubusercontent.com/6242328/36845031-fa579196-1d4c-11e8-8cd3-cba62a42c84d.png)
 
-
+Sinta-se a vontade para contribuir como quiser ;)
 
 
 
