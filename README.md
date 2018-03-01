@@ -6,7 +6,8 @@ Este Projeto tem como propósito desenvolver um Sistema de Chat completamente de
 
 Tal escolha foi motivada pelo risco em que uma arquitetura com um servidor central possui: caso o servidor fique indisponível, todas as outras estações caem. 
 
-Seguem abaixo uma figura que ilustra a arquitetura do Sistema. Observem que não há um servidor central:
+Seguem abaixo uma figura que ilustra a arquitetura do Sistema. Observem que não há um servidor central: <br>
+![esquema](https://user-images.githubusercontent.com/6242328/36846673-775df0c6-1d53-11e8-89df-a00c9e69cf3e.png)
 
 <b>Regras de Negócio</b>
 
